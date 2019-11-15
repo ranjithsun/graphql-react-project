@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #eee;
+}
+.main h2{
+  text-transform: uppercase;
+}
+.maincontent{
+  border: #000000 1px solid;
+  margin: 10px;
+  height: 300px;
+}
+.booklist-container {
+  width: 40%;
+  background: #ffffff;
+  float: left;
+  text-align: left;
+  height: 300px;
+}
+.booklist {
+  padding-left: 10px;
+}
+ul.booklist li:hover {
+  cursor: pointer;
+  background: #eeeeee;
+}
+ul.booklist li {
+  list-style-type: none;
+  padding: 5px;
+  display: inline-block;
+  border: 2px solid #aaaaaa;
+  margin: 5px;
+}
+.bookdetails-container{
+  width: 60%;
+  background: beige;
+  display: inline-block;
+  text-align: left;
+  height: 300px;
+}
+.bookdetails {
+  padding-left: 10px;
+}
+.addbookform-container {
+  padding: 10px;
+  position: fixed;
+  top: 70%;
+  left: 40%;
+  border: #000000 solid 1px;
+}
+.formfield-container {
+  padding-top: 5px;
+}
+.authorlist {
+  width: 173px;
+}
