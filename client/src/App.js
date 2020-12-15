@@ -8,7 +8,7 @@ import AddAuthor from './components/AddAuthor';
 
 //Setup Apollo Client
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'http://localhost:8080/graphql',
 })
 
 class App extends Component {
